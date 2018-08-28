@@ -1,0 +1,24 @@
+
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_8_0
+#warning "This project uses features only available in iOS SDK 8.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "BaseViewController.h"
+#import "MasonryDemo.h"
+
+#define  MAS_SHORTHAND  //1. 对于约束参数可以省去"mas_"
+#define  MAS_SHORTHAND_GLOBALS  //2. 对于默认的约束参数自动装箱
+#import "Masonry.h"
+
+#import "UIImageView+WebCache.h"
+
+
+#endif
