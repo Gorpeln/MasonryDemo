@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		482A6C8460BFD6D0478BE632 /* libPods-MasonryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E539B72AE6F6C7D289B7AE1 /* libPods-MasonryDemo.a */; };
+		7414C983213BC6EE00DC35B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7414C982213BC6EE00DC35B0 /* LaunchScreen.storyboard */; };
+		7414C986213BC6F500DC35B0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7414C984213BC6F500DC35B0 /* icon.png */; };
+		7414C987213BC6F500DC35B0 /* My_LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7414C985213BC6F500DC35B0 /* My_LaunchScreen.png */; };
 		74A686D9210F02FE003E2AB6 /* TableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A686D8210F02FE003E2AB6 /* TableVC.m */; };
 		74A686E2210F03BA003E2AB6 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A686E1210F03BA003E2AB6 /* TableViewCell.m */; };
 		74A686E5210F03E2003E2AB6 /* TableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A686E4210F03E2003E2AB6 /* TableViewModel.m */; };
@@ -17,7 +20,6 @@
 		74E31D85210AE6850036831C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E31D84210AE6850036831C /* ViewController.m */; };
 		74E31D88210AE6850036831C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E31D86210AE6850036831C /* Main.storyboard */; };
 		74E31D8A210AE6880036831C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E31D89210AE6880036831C /* Assets.xcassets */; };
-		74E31D8D210AE6880036831C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E31D8B210AE6880036831C /* LaunchScreen.storyboard */; };
 		74E31D90210AE6880036831C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E31D8F210AE6880036831C /* main.m */; };
 		74E31D9A210AE6880036831C /* MasonryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E31D99210AE6880036831C /* MasonryDemoTests.m */; };
 		74E31DA5210AE6890036831C /* MasonryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E31DA4210AE6890036831C /* MasonryDemoUITests.m */; };
@@ -47,6 +49,9 @@
 /* Begin PBXFileReference section */
 		4E539B72AE6F6C7D289B7AE1 /* libPods-MasonryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7033905B12C00B4D75D68CC5 /* Pods-MasonryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7414C982213BC6EE00DC35B0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7414C984213BC6F500DC35B0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		7414C985213BC6F500DC35B0 /* My_LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = My_LaunchScreen.png; sourceTree = "<group>"; };
 		74A686D7210F02FE003E2AB6 /* TableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableVC.h; sourceTree = "<group>"; };
 		74A686D8210F02FE003E2AB6 /* TableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableVC.m; sourceTree = "<group>"; };
 		74A686E0210F03BA003E2AB6 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
@@ -62,7 +67,6 @@
 		74E31D84210AE6850036831C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		74E31D87210AE6850036831C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74E31D89210AE6880036831C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		74E31D8C210AE6880036831C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74E31D8E210AE6880036831C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74E31D8F210AE6880036831C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74E31D95210AE6880036831C /* MasonryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasonryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,10 +203,12 @@
 				74E31D84210AE6850036831C /* ViewController.m */,
 				74E31DB6210AED400036831C /* BaseViewController.h */,
 				74E31DB7210AED400036831C /* BaseViewController.m */,
+				7414C984213BC6F500DC35B0 /* icon.png */,
+				7414C985213BC6F500DC35B0 /* My_LaunchScreen.png */,
 				74E31D86210AE6850036831C /* Main.storyboard */,
 				74E31D89210AE6880036831C /* Assets.xcassets */,
-				74E31D8B210AE6880036831C /* LaunchScreen.storyboard */,
 				74E31D8E210AE6880036831C /* Info.plist */,
+				7414C982213BC6EE00DC35B0 /* LaunchScreen.storyboard */,
 				74E31D8F210AE6880036831C /* main.m */,
 			);
 			name = Other;
@@ -321,10 +327,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74E31D8D210AE6880036831C /* LaunchScreen.storyboard in Resources */,
 				74E31D8A210AE6880036831C /* Assets.xcassets in Resources */,
 				74E31D88210AE6850036831C /* Main.storyboard in Resources */,
+				7414C986213BC6F500DC35B0 /* icon.png in Resources */,
 				74A686E7210F0CFC003E2AB6 /* TimeLine.plist in Resources */,
+				7414C983213BC6EE00DC35B0 /* LaunchScreen.storyboard in Resources */,
+				7414C987213BC6F500DC35B0 /* My_LaunchScreen.png in Resources */,
 				74A686E9210F0D11003E2AB6 /* placeholder_gorpeln.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,14 +430,6 @@
 				74E31D87210AE6850036831C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		74E31D8B210AE6880036831C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74E31D8C210AE6880036831C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
